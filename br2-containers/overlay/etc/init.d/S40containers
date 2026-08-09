@@ -1,0 +1,7 @@
+#!/bin/sh
+case "$1" in
+  start)
+    mount -t cgroup2 none /sys/fs/cgroup 2>/dev/null
+    mkdir -p /var/lib/containers/storage /run/containers/storage
+    ;;
+esac

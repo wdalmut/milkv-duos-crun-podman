@@ -1,0 +1,6 @@
+[submodule "duo-buildroot-sdk-v2"]
+	path = duo-buildroot-sdk-v2
+	url = https://github.com/milkv-duo/duo-buildroot-sdk-v2.git
+[submodule "podman-src"]
+	path = podman-src
+	url = https://github.com/podman-container-tools/podman.git
